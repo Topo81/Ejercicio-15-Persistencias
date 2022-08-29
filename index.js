@@ -1,8 +1,8 @@
 var nombre= "Tomas"
 var apellido= "Biasutti"
-var persona={
-    nombre:"Tomas",
-    apellido:"Biasutti"
+const persona = {
+    nombre,
+    apellido
 }
 sessionStorage.setItem("persona",JSON.stringify())
 localStorage.setItem("persona",JSON.stringify())
